@@ -1,0 +1,10 @@
+table, td {
+	direction: ltr;
+	border: 1px solid var(--fds-control-strong-stroke-default);
+	border-collapse: collapse;
+}
+
+td {
+	padding-block: 0.5rem;
+	padding-inline: 1rem;
+}

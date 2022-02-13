@@ -1,0 +1,59 @@
+<svg
+    width="48"
+    height="56"
+    xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(180,10.5,25.5)">
+        <rect
+            fill="black"
+            width="12"
+            height="3.835"
+            x="0"
+            y="0"
+        />
+        <rect
+            fill="black"
+            width="12"
+            height="3.835"
+            x="0"
+            y="41.165"
+        />
+        <rect
+            fill="black"
+            width="4.4"
+            height="45"
+            x="7.6"
+            y="0"
+        />
+    </g>
+    <g transform="translate(27,6)">
+        <rect
+            fill="black"
+            width="12"
+            height="3.835"
+            x="0"
+            y="0"
+        />
+        <rect
+            fill="black"
+            width="12"
+            height="3.835"
+            x="0"
+            y="41.165"
+        />
+        <rect
+            fill="black"
+            width="4.4"
+            height="45"
+            x="7.6"
+            y="0"
+        />
+    </g>
+
+    <style>
+        @media (prefers-color-scheme: dark) {
+            rect[fill="black"] {
+                fill: white;
+            }
+        }
+    </style>
+</svg>

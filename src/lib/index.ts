@@ -1,0 +1,1 @@
+export { default as ArrayTable } from "./ArrayTable.svelte"

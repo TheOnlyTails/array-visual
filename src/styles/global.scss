@@ -1,0 +1,60 @@
+body {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+
+	margin: 0;
+	margin-inline: auto;
+
+	padding-inline: 1rem;
+
+	background: var(--fds-solid-background-base);
+
+	color: var(--fds-text-primary);
+	font-family: var(--fds-font-family-text);
+	direction: rtl;
+
+	min-block-size: 100%;
+}
+
+main {
+	*:not(hr) {
+		max-inline-size: 100ch;
+	}
+
+	.text-block.type-title {
+		align-self: center;
+		margin-block-end: 1rem;
+
+		&:first-child {
+			margin-block-start: 1rem;
+		}
+	}
+}
+
+pre.shiki {
+	margin-block-start: 0.5rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	font-family: "JetBrains Mono", "Cascadia Code", monospace;
+	direction: ltr;
+	max-inline-size: 50ch;
+}
+
+code {
+	direction: ltr;
+	unicode-bidi: isolate;
+}
+
+hr {
+	margin-block: 2rem;
+	border: 3px solid;
+	border-radius: 1rem;
+	inline-size: 100%;
+}
+
+svg {
+	inline-size: 2rem;
+	block-size: auto;
+	fill: currentColor;
+}
